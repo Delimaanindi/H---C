@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css_calc.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple calculator</title>
+</head>
+<body>
+    <h2 class="title">My Very First Calculator!</h2>
+    <!-- <input type="number" placeholder="0" onblur="getVal()" id="numInput"> -->
+    <div id="numroom">
+        <p id="num1"></p>
+        <p id="num2"></p>
+    </div>
+    <button id="randomNum" onclick="randomize()">Randomize</button>
+    <button id="swap" onclick="swap()">Swap Number</button>
+<h4 id="result"></h4>
+    <div class="calroom">
+        <span class="stbutton">
+            <button id="btn1" onclick="addition()">+</button>
+            <button id="btn2" onclick="substraction()">-</button>
+            <br>
+            <button id="btn3" onclick="multiply()">x</button>
+            <button id="btn4" onclick="divide()">&divide;</button>
+            <button id="btn5" onclick="erase()">C</button> 
+        </span>  
+    </div>
+    <div id="nih">
+        <h2 class="title2">Temperature converter</h2>
+        <button onclick="ftoc()" id="ftoc">fahrenheit to Celsius</button>
+        <button onclick="ctof()" id="ctof">Celsius to fahrenheit</button>
+        <br>
+    </div>
+    
+</body>
+</html>
+
+<script src="calc_script.js"></script>

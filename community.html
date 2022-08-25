@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="trial.css">
+<link rel="stylesheet" class="home" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join My Community</title>
+</head>
+<body>
+  <h2 style="color:blue; background:gray;" class="op1">Fill in the form to join the community.</h2>  
+  <h4>Please fill in the form correctly</h4>
+  <form action="">
+    <p>Name</p>
+    <input type="text" name="name" placeholder="your complete name">
+    <br>
+    <p>City</p>
+    <select name="city" id="">
+        <option value="Blank">Choose your city</option>
+        <option value="Jakarta">Jakarta</option>
+        <option value="Bandung">Bandung</option>
+        <option value="Medan">Medan</option>
+        <option value="Aceh">Aceh</option>
+    </select>
+    <br>
+    <p>Your Birthday</p>
+    <p>
+        <sup style="color:red;">*</sup> format: DD/MM/YY 
+    </p>
+    <input type="date" name="day of birth" placeholder="when were you born?">
+    <br>
+    <p>Your profesional field</p>
+    <select name="role" id="">
+        <option value="Blank">What's your field?</option>
+        <option value="Front-end Eng">Front-end Engineer</option>
+        <option value="Back-end Eng">Back-end Engineer</option>
+    </select>
+    <p>What level of programming are you at? (be as honest as you can)</p>
+    <input type="checkbox" name="programming level" value="beginner">Beginner <br>
+    <input type="checkbox" name="programming level" value="Intermediate">Intermediate <br>
+    <input type="checkbox" name="programming level" value="Proficient">Proficient <br>
+    <p>Your description</p>
+  <textarea name="" id="" cols="50" rows="10" placeholder="Describe yourself here..."></textarea>
+  <p style="margin-left:345px; font-size:11px;">
+    <sup style="color:red;">*</sup>Max. 250 words</p>
+    <input type="submit" value="submit!" class="sbutton" onclick="alert('do you really want to submit this response?')">
+  </form>
+    <br>
+    <a href="web1.html" target="_parent" class="back">home</a>
+</body>
+</html>

@@ -1,0 +1,231 @@
+
+body {
+    background-color: #d9abe9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+#greeting {
+    margin-top: 50px;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+.op1 {
+    @import url('https://fonts.googleapis.com/css2?family=Arima&family=Chakra+Petch:wght@300;600&family=Titan+One&display=swap');
+    font-family: 'Arima', cursive; 
+}
+#title {
+    font-family: 'Chakra Petch', sans-serif;
+    color: rgb(0, 150, 150);
+    background-color: rgba(0, 250, 100, 0.35);
+}
+.first {
+    text-indent: 0px;
+}
+.second {
+    text-indent: 0px;
+}
+
+#first-footer {
+    color: #3babab;
+    text-align: left;
+    text-indent: 20px;
+}
+#second-footer {
+    color: blue;
+    text-align: left;
+    text-indent: 20px;
+}
+
+#back {
+    display: inline-block; padding: 15px 15px; 
+    font-size: 14px; cursor: pointer; text-align: center;
+    text-decoration: none; outline: none; color: yellow; 
+    background-color: purple; border: none; 
+    border-radius: 15px; box-shadow: 0 5px #999;
+    @import url('https://fonts.googleapis.com/css2?family=Arima&family=Chakra+Petch:wght@300;600&family=Fjalla+One&family=Titan+One&display=swap');
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#back:hover {background-color: black; color: white;}
+
+.sbutton {
+    background-color: rgb(151, 40, 151);
+    border: yellow 3px dotted;
+    font-weight: 5 px;
+    font-size: larger;
+    border-radius: 10px;
+    color: bisque;
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Chakra+Petch:wght@300;600&family=Titan+One&display=swap');
+font-family: 'Arima', cursive;}
+
+.home {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+#justabutton {
+    background-color: #3babab;
+    font-weight: bold;
+    border-radius: 3px;
+    color: black;
+    border: none;
+    font-size: 20px;
+    display: inline-flex;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#justabutton:hover {
+    font-weight: bold;
+    background-color: aqua;
+    border: none;
+    font-size: 20px;
+    border-radius: 3px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#savebutton {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);;
+}
+
+.menu {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+    text-decoration: dotted;
+    text-shadow: gold;
+}
+
+.typeofcoffee {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#add {
+    box-shadow:  0 5px 5px 0 rgba(0,0,0,0.2);
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#dec {
+    box-shadow:  0 5px 5px 0 rgba(0,0,0,0.2);
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#order {
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    width: 80px;
+    height: 35px;
+    font-weight: bold;
+    box-shadow: 2px 6px 6px 0 rgba(0,0,0,0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#order:hover {
+    background-color: green;
+    transform: scale(1.2);
+}
+
+#cancel {
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    width: 70px;
+    height: 35px;
+    font-weight: bold;
+    box-shadow: 2px 6px 6px 0 rgba(0,0,0,0.3);
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#cancel:hover {
+    background-color: red;
+    transform: scale(1.2);
+}
+
+#coffee {
+    box-shadow: 2px 6px 6px 0 rgba(0,0,0,0.3);
+    border-radius:10%;
+}
+
+#orderNotes {
+    margin-bottom: 20px;
+}
+#notes {
+    background-color: lightblue;
+    border-radius: 3px;
+    border-color:lightseagreen;
+    border-style: groove;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 2px 6px 6px 0 rgba(0,0,0,0.3);
+}
+
+#notes:hover {
+    background-color: rgb(126, 198, 223);
+    border-radius: 3px;
+    border-color:lightseagreen;
+    border-style: groove;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 2px 6px 6px 0 rgba(0,0,0,0.3);
+}
+
+#linkmenu {
+    text-decoration: none;
+}
+
+#mainmenu {
+    background-color: #e8bef6;
+    display: block;
+    border: 1px solid rgba(224, 13, 232, 0.2);
+    box-sizing: border-box;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 140px;
+    height: 30px;
+    color: black;
+    box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+#mainmenu:hover {
+    background-color: #d388ec;
+    border: 1px solid rgba(224, 13, 232, 0.7);
+    box-sizing: border-box;
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 140px;
+    height: 30px;
+    color: black;
+    box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.2);
+}
+

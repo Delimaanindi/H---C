@@ -1,0 +1,67 @@
+#gametitle {
+    color: rgb(227, 207, 20);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+.body {
+    background: 
+    linear-gradient(27deg, #033612 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #013e06 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, rgb(4, 114, 17) 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, rgb(4, 114, 17) 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, rgb(4, 114, 17) 10px, transparent 10px),
+    linear-gradient(rgb(4, 114, 17) 25%, #023504 25%, #035701 50%, transparent 50%, transparent 75%, #034d13 75%, #025c05);
+    background-color: #06590f;
+    background-size: 20px 20px;
+}
+
+#undertitle {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#start {
+    background-color:rgb(227, 207, 20);
+    color: green;
+    font-weight: bold;
+    font-size: 14pt;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    margin-left: 580px;
+    margin-top: 40px;
+}
+
+#start:hover {
+    background-color:rgb(189, 170, 0);
+}
+
+#new {
+    width: 112px;
+    background-color:rgb(227, 207, 20);
+    color: green;
+    font-weight: bold;
+    font-size: 14pt;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    margin-left: 580px;
+}
+
+#new:hover {
+    background-color:rgb(189, 170, 0);
+}
+
+#per {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    text-shadow: 2px 2px 2px black;
+}

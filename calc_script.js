@@ -86,17 +86,17 @@ function ftoc() {
     coba1.setAttribute("id", "hihi");
     coba1.setAttribute("value", "")
     coba1.setAttribute("placeholder", "Fahrenheit");
-    cobas = document.body.appendChild(coba1);
+    cobas = document.getElementById("trial1").appendChild(coba1);
 
     coba2 = document.createElement('INPUT');
     coba2.setAttribute("type", "button");
     coba2.setAttribute("id", "convert");
     coba2.setAttribute("value", "Convert");
-    cobad = document.body.appendChild(coba2);
+    cobad = document.getElementById("trial1").appendChild(coba2);
 
     coba3 = document.createElement('P');
     coba3.setAttribute("id", "converted");
-    cobat = document.body.appendChild(coba3);
+    cobat = document.getElementById("trial1").appendChild(coba3);
 
     coba2.onclick = function convert() {
     val = document.getElementById("hihi").value;
@@ -104,9 +104,9 @@ function ftoc() {
     haha = document.getElementById("converted");
     console.log(haha.innerHTML = res + " &#8451;"); 
     };
-    cobas = document.body.appendChild(trys);
-    cobad = document.body.appendChild(tryd);
-    cobat = document.body.appendChild(tryt);
+    cobas = document.getElementById("trial2").appendChild(trys);
+    cobad = document.getElementById("trial2").appendChild(tryd);
+    cobat = document.getElementById("trial2").appendChild(tryt);
 
     cobas.remove();
     cobad.remove();
@@ -118,17 +118,17 @@ function ctof() {
     try1.setAttribute("type", "text");
     try1.setAttribute("id", "haha");
     try1.setAttribute("placeholder", "Celcius");
-    trys = document.body.appendChild(try1);
+    trys = document.getElementById("trial2").appendChild(try1);
 
     try2 = document.createElement('INPUT');
     try2.setAttribute("type", "button");
     try2.setAttribute("id", "convert2");
     try2.setAttribute("value", "Convert");
-    tryd = document.body.appendChild(try2);
+    tryd = document.getElementById("trial2").appendChild(try2);
 
     try3 = document.createElement('P');
     try3.setAttribute("id", "converted2");
-    tryt = document.body.appendChild(try3);
+    tryt = document.getElementById("trial2").appendChild(try3);
 
     try2.onclick = function convert() {
     val = document.getElementById("haha").value;
@@ -138,11 +138,12 @@ function ctof() {
     }; 
 
     fc = document.getElementById("ftoc")
-    cobas = document.body.appendChild(coba1);
-    cobad = document.body.appendChild(coba2);
-    cobat = document.body.appendChild(coba3);
+    cobas = document.getElementById("trial1").appendChild(coba1);
+    cobad = document.getElementById("trial1").appendChild(coba2);
+    cobat = document.getElementById("trial1").appendChild(coba3);
 
     cobas.remove();
     cobad.remove();
     cobat.remove();
 }
+

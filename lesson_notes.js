@@ -75,4 +75,5 @@ console.log(first.innerText = favnum)
 // }
 
 // exam()
-
+// pop() function is to remove last value of an array while shif() removes the first element of an array
+// unshift() will add elements at the beginning of array

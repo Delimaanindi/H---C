@@ -147,3 +147,17 @@ function ctof() {
     cobat.remove();
 }
 
+function feedBack() {
+    feed = document.createElement('TEXTAREA');
+    feed.setAttribute("id", "feedarea");
+    feed.setAttribute("placeholder", "Write your feedback here ...");
+    feed.setAttribute("row", "3");
+    feed.setAttribute("column", "4");
+    feedback = document.getElementById("fb").appendChild(feed);
+
+    back = document.createElement('INPUT');
+    back.setAttribute("type", "button");
+    back.setAttribute("id", "submit");
+    back.setAttribute("value", "Submit");
+    fd = document.getElementById("fb").appendChild(back);
+}

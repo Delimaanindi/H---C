@@ -77,3 +77,10 @@ console.log(first.innerText = favnum)
 // exam()
 // pop() function is to remove last value of an array while shif() removes the first element of an array
 // unshift() will add elements at the beginning of array
+// we can render html tags in js file by using innerHtml and write the tags before and after the variable
+// const container = document.getElementById("cont1")
+// console.log(container.innerHTML = "<button onclick='thank()'>Buy!</button>")
+
+// function thank() {
+//     container.innerHTML += "<p>Thank you for buying!</p>"
+//     }

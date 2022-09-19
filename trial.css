@@ -129,6 +129,11 @@ font-family: 'Arima', cursive;}
     display: inline-block;
     margin-bottom: 10px;
 }
+#dec2 {
+    box-shadow:  0 5px 5px 0 rgba(0,0,0,0.2);
+    display: inline-block;
+    margin-bottom: 10px;
+}
 
 #order {
     background-color: white;

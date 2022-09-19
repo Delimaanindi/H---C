@@ -90,13 +90,13 @@ function save() {
 
 save()
 
-fGreet = ["Hi", "Hello", "Aloha"]
-greet = document.getElementById("greeting")
-for (let x = 0; x < fGreet.length; x++) {
-    console.log(greet.innerText = fGreet[x] + ", Wonwoo!")
-}
+let orderIn = document.getElementById("totalOrder")
 
-orderIn = document.getElementById("totalOrder")
+decreaseOrder = document.getElementById('dec')
+decreaseOrder2 = document.getElementById('dec2')
+
+incOrder = document.getElementById('add1')
+incOrder2 = document.getElementById('add2')
 
 console.log(orderIn)
 
@@ -105,15 +105,31 @@ coffee1 = "Black coffee"
 coffee2 = "Mochacino"
 
 function addorder() {
+        const stock = 7;
         numOrder = numOrder + 1
         orderIn.innerText = numOrder
+        if(numOrder === stock) {
+            incOrder.setAttribute('disabled', 'true')
+        };
+        if(numOrder < stock) {
+            incOrder.removeAttribute('disabled')
+        };
         console.log(numOrder)
+        console.log(stock)
     }
 
 function cutorder() {
         numOrder = numOrder - 1
-        totOrder = orderIn.innerText = numOrder
+        displayedNumb = orderIn.innerText = numOrder;
+
+        if(displayedNumb <= 0 ) {
+            decreaseOrder.setAttribute('disabled', 'true')
+        }
+        if(displayedNumb > 1) {
+            decreaseOrder.removeAttribute('disabled')
+        };
 }
+
 upOrder = document.getElementById("numberOrder")
 
 console.log(upOrder)
@@ -121,16 +137,29 @@ console.log(upOrder)
 inOrder = 0
 
 function addorder2() {
+        const stock = 5; 
         inOrder = inOrder + 1
         upOrder.innerText = inOrder
-        detail = 
+        if(inOrder === stock) {
+            incOrder2.setAttribute('disabled', 'true')
+        };
+        if(inOrder < stock) {
+            incOrder2.removeAttribute('disabled')
+        };
         console.log(inOrder)
     }
 
 function cutorder2() {
-    inOrder += -1
-    upOrder.innerText = inOrder
-    console.log(inOrder)
+    inOrder = inOrder - 1
+    displayedNum = upOrder.innerText = inOrder;
+
+    if(displayedNum <= 0) {
+        decreaseOrder2.setAttribute('disabled', 'true')
+    };
+    
+    if(displayedNum > 1) {
+        decreaseOrder2.removeAttribute('disabled')
+    };
 }
 
 function order() {
@@ -165,9 +194,3 @@ function textArea() {
 }
 
 
-
-// greeting = "Hi,"
-// name = "Dinda"
-
-// toGreet = document.getElementById("greeting")
-// console.log(toGreet.innerText = greeting + " " + name)
